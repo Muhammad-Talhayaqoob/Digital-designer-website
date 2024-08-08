@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+#main{
+    height: 100%;
+    width: 100%;
+
+}
+#nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 30px;
+}
+#nav h3{
+
+    font-size: 15px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 70px;
+    margin-left: 7px;
+}
+#intro{
+    height: 40vh;
+    width: 100vw;
+    /* background-color: aqua; */
+    padding: 30px ;
+    
+}
+#intro h2{
+    font-size: 90px;
+    line-height: 85px;
+    
+
+}
+#intro h2 span{
+    color:darkorange;
+}
+#places{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#places h6{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 300;
+    
+}
+#hero img{
+    height: 50%;
+    width: 100%;
+    margin-bottom: 0px;
+
+    background-size: cover;
+
+    background-color: aqua;
+    
+
+
+}
+
+#about{
+    margin-top: 0px;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+#about h2{
+    font-size: 60px;
+    font-weight: 300;
+    width: 70%;
+}
+#aboutpart2{
+    width: 40%;
+    padding: 20px;
+    border-left: 2px solid black; 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#aboutpart2 h3{
+    font-size: 25px;
+    font-weight: 600;
+}
+#icons i{
+    /* background-color: blue; */
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+
+}
+#work{
+    width: 100%;
+    height: 45%;
+    
+    padding: 30px;
+
+    display: flex;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+#work1{
+    width: 30%;
+    height: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    border-right: 2px solid black;
+    font-size: 25px;
+    padding: 10px;
+   
+}
+#work1 i{
+    margin-right: 35px;
+}
+#work2{
+    width: 70%;
+    height: 100%;
+    padding: 0px 30px;
+    
+}
+#part1{
+    display: flex;
+    /* background-color: aqua; */
+    border-bottom: 1px solid black;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    border-bottom:  1px solid black;
+}
+#part2{
+    display: flex;
+    /* background-color: rgb(89, 255, 0); */
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    
+
+}
+#part1 .elem1{
+    width: 50%;
+    height: 100%;
+
+    /* background-color: blueviolet; */
+
+
+}
+#part1 .elem2{
+    width: 50%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    border-left: 1px solid black;
+    padding-left: 30px;
+
+
+}
+#part2 .elem1{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(176, 139, 210); */
+    
+}
+#part2 .elem2{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(176, 139, 210); */
+    border-left: 1px solid black;
+    padding-left: 30px;
+    
+}
+#part1 .elem1 h2 {
+    font-size: 42px;
+}
+#part1 .elem2 h2{
+    font-size: 42px;
+
+}
+#part2 .elem1 h2 {
+    font-size: 42px;
+}
+#part2 .elem2 h2{
+    font-size: 42px;
+
+}
+#Slogan{
+    width: 100%;
+    height: 15%;
+
+}
+#Slogan h3{
+    position: relative;
+    top: 20%;
+    left: 10%;
+    font-size: 100px;
+
+}
